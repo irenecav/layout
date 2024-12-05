@@ -1,0 +1,40 @@
+@use 'base' as *;
+
+
+.container{
+  display:flex;
+
+  .box{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+  }
+
+}
+
+.container-1{
+  @include palette($base-color-1)
+}
+
+.container-2{
+  @include palette($base-color-2)
+}
+
+.container-3{
+  @include palette($base-color-3)
+}
+
+
+
+
+
+
+
+
+

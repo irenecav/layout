@@ -1,0 +1,50 @@
+body {
+  $color-background: white;
+  $primary-color: orange;
+  background-color: aquamarine;
+
+  .card{
+    display: grid;
+    grid-template-rows: 112px 200px 50px;
+    grid-template-columns: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    img{
+      width: 200px;
+    }
+    .text {
+      background-color: $color-background;
+      padding: 10px;
+    
+    
+      h3 {
+        margin-top: 5px;
+
+      }
+      
+      p {margin-bottom: 25px;
+      font-size: 14px;}
+
+      span{
+      color: $primary-color;
+      font-size: 11px;
+      display: flex;
+      justify-content: end;
+      &.bolder{
+        color: black;
+        font-weight: 600
+      }
+    };
+  
+    }
+    button{
+      background-color: $primary-color;
+      border: none;
+      color: $color-background;
+      font-weight: 600;
+    }
+  }
+
+  
+    
+  
+}

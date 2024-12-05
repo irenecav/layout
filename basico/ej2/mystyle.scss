@@ -1,0 +1,50 @@
+body {
+  background-color: aquamarine;
+  font-family: Arial, sans-serif;
+
+  nav {
+    background: rgba(0,0,0,0.7);
+
+    ul {
+      padding-inline-start: 0;
+      display: flex;
+      align-items: center;
+      list-style: none;
+      overflow: hidden;
+      justify-content: space-between;
+      margin-block-start: 0;
+      text-align: center;
+
+    
+      li {
+        font-size: 16px;
+        padding: 10px 5px;
+
+        &:hover{
+          background: #ec2381;
+
+        }
+
+        a {
+          padding: 10px;
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (width <= 768px) {
+  ul{
+        flex-direction: column;
+        li{
+          width: 100%;
+        }
+  }
+}
+
+
+ 
+
